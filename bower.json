@@ -1,0 +1,17 @@
+{
+  "name": "Besiktas Haber",
+  "authors": [
+    "Doğan Kutbay <doankutbay@hotmail.com>"
+  ],
+  "description": "Haber",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0",
+    "masonry": "^4.0.0"
+  }
+}
