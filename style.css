@@ -84,9 +84,8 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	float: left;
 }
-.anaBolge .anaHaber{
+.anaHaber{
 	position: relative;
 	width: calc(25% - 2px);
 	margin:1px;
@@ -94,7 +93,7 @@ h1,h2,h3,h4,h5,h6{
 	float: left;
 	overflow: hidden;
 }
-.anaBolge .anaHaber a{
+.anaHaber a{
 	position: absolute;
 	z-index: 6;
 	width: 100%;
@@ -102,20 +101,19 @@ h1,h2,h3,h4,h5,h6{
 	display: block;
 	text-indent: -99999px;
 }
-.anaBolge .anaHaber.kare{
+.anaHaber.kare{
 	height: 298px;
 }
-.anaBolge .anaHaber.kare img{
+.anaHaber.kare img{
 	width: auto;
 }
-.anaBolge .anaHaber.uzun{
+.anaHaber.uzun{
 	height: 448px;
 }
-.anaBolge .anaHaber.uzun img{
+.anaHaber.uzun img{
 	width: auto;
-	right:;
 }
-.anaBolge .anaHaber .kategori{
+.anaHaber .kategori{
 	font-family: "Roboto Slab", serif;
 	font-weight: 700;
 	border-radius: 3px;
@@ -129,7 +127,7 @@ h1,h2,h3,h4,h5,h6{
 	padding: 5px 10px;
 	background:#2e3440;
 }
-.anaBolge .anaHaber img{
+.anaHaber img{
 	width: 110%;
 	display: block;
 	position: absolute;
@@ -140,7 +138,7 @@ h1,h2,h3,h4,h5,h6{
 	margin:0 auto;
 	z-index: 2;
 }
-.anaBolge .anaHaber h1{
+.anaHaber h1{
 	text-transform: uppercase;
 	position: absolute;
 	z-index: 5;
@@ -150,13 +148,13 @@ h1,h2,h3,h4,h5,h6{
 	padding: 0 10px;
 	text-shadow: 1px 1px black;
 }
-.anaBolge .anaHaber h1 small{
+.anaHaber h1 small{
 	float: left;
 	width: 100%;
 	line-height: 20px;
 	text-transform: none;
 }
-.anaBolge .gradient{
+.gradient{
 	position: absolute;
 	z-index: 3;
 	bottom: 0;
@@ -167,7 +165,7 @@ h1,h2,h3,h4,h5,h6{
     background: -moz-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
 }
-.anaBolge .gradient:after{
+.gradient:after{
 	position: absolute;
 	content: '';
 	top: 0;
@@ -187,4 +185,37 @@ h1,h2,h3,h4,h5,h6{
 	-o-transition: opacity 0.5s ease-out;
 	-webkit-transition: opacity 0.5s ease-out;
 	-moz-transition: opacity 0.5s ease-out;
+}
+
+/****Kucuk Haber****/
+.surmanset{
+	width: 100%;
+	margin: 0;
+}
+.surmanset h1{
+	font-size: 1.375em;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.anaHaber.kucukHaber{
+	height: 98px;
+}
+.kucukHaber h1{
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 5;
+	font-size: 1em;
+	color: white;
+	bottom: 0;
+	padding: 0 10px;
+	text-shadow: 1px 1px black;
+}
+.kucukHaber h1 small{
+	float: left;
+	color: whitesmoke;
+	font-size: 0.8em;
+	width: 100%;
+	line-height: 20px;
+	text-transform: none;
 }
